@@ -31,6 +31,11 @@ public class BaseballPoints {
 		// TODO Auto-generated method stub
 
 		System.out.println("hola");
+		
+		Offensive off = new Offensive();
+		off.listar();
+		
+		
 
 	}
 
