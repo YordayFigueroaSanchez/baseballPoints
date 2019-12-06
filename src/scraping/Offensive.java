@@ -35,14 +35,15 @@ public class Offensive {
 	public void listar() {
 		this.calcularAporte();
 		for (Bat bat : listBat) {
-			System.out.println("orden :" + bat.getOrden());
-			System.out.print("rbi :" + bat.getRbi());
+			System.out.print("(:" + bat.getOrden() + ")");
 			System.out.print("-");
-			System.out.print("r :" + bat.getR());
-			System.out.print("--");
-			System.out.print("r :");
+			System.out.print("(rbi:" + bat.getRbi() + ")");
+			System.out.print("-");
+			System.out.print("(r:" + bat.getR() + ")");
+			System.out.print("-");
+			System.out.print("(point:");
 			System.out.printf("%.3f", bat.getAporte());
-			System.out.println("");
+			System.out.println(")");
 		}
 	}
 	
